@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.farmkart.OrderStatus">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/title"
+        android:layout_alignParentTop="true"
+        app:cardBackgroundColor="@color/colorAccent"
+        android:layout_marginTop="8dp"
+        android:layout_centerInParent="true"
+        app:cardElevation="8dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp">
+
+                <TextView
+                    android:text="My Orders"
+                    android:textSize="30sp"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+    </android.support.v7.widget.CardView>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/title"
+        android:layout_marginTop="16dp"
+        android:id="@+id/listOrders"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Farmkart2.iml" filepath="$PROJECT_DIR$/Farmkart2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\kumar\AndroidStudioProjects\Farmkart2\farmcart.iml" filepath="C:\Users\kumar\AndroidStudioProjects\Farmkart2\farmcart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fbutton-1.0.5/fbutton-1.0.5.iml" filepath="$PROJECT_DIR$/fbutton-1.0.5/fbutton-1.0.5.iml" />
+    </modules>
+  </component>
+</project>
